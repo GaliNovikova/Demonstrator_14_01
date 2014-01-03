@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/docs-assets/ico/favicon.png">
+
+    <title>DYNAFIX</title>	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<!--link rel='stylesheet' href='http://twitter.github.com/typeahead.js/releases/latest/typeahead.css' /-->
+    <!-- Custom styles-->
+	<link href="css/typeahead.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">   
+    <link href="css/offcanvas.css" rel="stylesheet">    
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="brand-search">
+    <div class="container"><div class="row">
+		<div class="col-6 col-xs-12 col-md-6 col-lg-6 left-part">
+				<span class="fixed-close-btn hidden-lg hidden-md"></span>
+				<h2 >Zoeken op merk</h2>
+				<div class="row">
+					<div class="col-12 companies details-result">			
+						<div>
+							<h4>Merk</h4>
+							<div class="img-container"><img src="" class="first"/><span class="close-button first"></span><span class="check-button first"></span></div>
+							<h5 class="center first"></h5>
+						</div>          
+						<div >
+							<h4>Model</h4>
+							<div class="img-container">
+								<img style="height:70%;"class="problem ready"src=""><span class="close-button problem ready second"></span><span class="check-button problem ready"></span>
+								<div class="model inner-search-form">
+									<div>
+										<h5 class="center">Kies een model<br/>of zoek:</h5>
+										<input type="text" class="form-control choicehelper list-model" placeholder="Zoeken...">									
+										<button class="btn btn-default btn-yellow">Zoeken</button>
+									</div>
+								</div>
+							</div>
+							<h5 class="problem center ready"></h5>
+						</div>						
+						<div class="result_problem">
+							<h4>Onderwerp</h4>
+							<div class="img-container">
+								<img class="ready" src="images/content/problem0.gif" style="width:60%; height:60%;"><span class="close-button ready third"></span><span class="check-button ready"></span>
+								<div class="problem inner-search-form">
+									<div>
+										<h5 class="center" style="margin-top:-5px;">Kies een onderwerp<br/>of zoek:</h5>
+										<input type="text" class="form-control choicehelper list-problem" placeholder="Zoeken...">									
+										<button class="btn btn-default btn-yellow">Zoeken</button>
+									</div>
+								</div>
+							</div>
+							<h5 class="ready center"></h5>
+						</div>
+					</div><!--/span-->
+				</div><!--/row-->
+			<div class="brandSelection">
+					<div class="btn-group pull-right">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" onclick="">
+					    Alfabetisch a-z <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu sorting" role="menu">
+					    <li><a class="sorting-AtoZ" href="javascript:sortItems('Alfabetisch a-z', false, '.sorting-AtoZ');">Alfabetisch a-z</a></li>
+					    <li><a class="sorting-ZtoA" href="javascript:sortItems('Alfabetisch z-a', true, '.sorting-ZtoA');">Alfabetisch z-a</a></li>
+					    <li><a href="javascript:void(0)">Relevantie</a></li>
+					    <li><a href="javascript:void(0)">Nieuwste eerst</a></li>
+					    <li><a href="javascript:void(0)">Oudste eerst</a></li>
+					  </ul>
+					</div>
+
+					<h3><span class="model">Kies nu uw model:</span>
+						<span class="brand">Kies uw merk:</span>
+						<span class="problem">Kies nu uw onderwerp:</span>
+					</h3>
+				  	<!-- Single button -->
+				  <div class="row">
+					<div class="col-12 companies">
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/acer.png"></div>
+						  <h5 class="center">Acer</h5>
+						</div>			
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/apple.png"></div>
+						  <h5 class="center"><span class="hidden">1</span>Apple</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/blackberry.png"></div>
+						  <h5 class="center"><span class="hidden">1</span>BlackBerry</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/sony.png"></div>
+						  <h5 class="center"><span class="hidden">1</span>Sony</h5>
+						</div>           
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/htc.png"></div>
+						  <h5 class="center"><span class="hidden">1</span>HTC</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/motorola.jpg"></div>
+						  <h5 class="center">Motorola</h5>
+						</div>		    
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/huawei.png"></div>
+						  <h5 class="center">Huawei</h5>
+						</div>           
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/alcatel.png"></div>
+						  <h5 class="center">Alcatel</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/samsung.png"></div>
+						  <h5 class="center"><span class="hidden">1</span>Samsung</h5>
+						</div>				
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/option.png"></div>
+						  <h5 class="center">Option</h5>
+						</div>           
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/emporia.png"></div>
+						  <h5 class="center">Emporia</h5>
+						</div> 
+         
+						<!--div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/t-mobile.png"></div>
+						  <h5 class="center">T-mobile</h5>
+						</div-->      
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/ZTE.png"></div>
+						  <h5 class="center">ZTE</h5>
+						</div>
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/vodafone.png"></div>
+						  <h5 class="center">Vodafone</h5>
+						</div>						
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/nokia.png"></div>
+						  <h5 class="center"><span class="hidden">1</span>Nokia</h5>
+						</div> 
+
+						
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone_4s.png"></div>
+						  <h5 class="center">iPhone 4S</h5>
+						</div>         		    
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone3gs.png"></div>
+						  <h5 class="center">iPhone 3GS</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone_5.png"></div>
+						  <h5 class="center">iPhone 5</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone_5s.png"></div>
+						  <h5 class="center">iPhone 5S</h5>
+						</div>             
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone5c_blue.png"></div>
+						  <h5 class="center">iPhone 5C</h5>
+						</div>          				
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone3.png"></div>
+						  <h5 class="center">iPhone 3G</h5>
+						</div>           
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad2.png"></div>
+						  <h5 class="center">iPad 2<br/>16 gb</h5>
+						</div>          
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad4.png"></div>
+						  <h5 class="center">iPad 4<br/>64 gb black</h5>
+						</div>      
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad_mini.png"></div>
+						  <h5 class="center">iPad mini<br/>16 gb black</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad_mini.png"></div>
+						  <h5 class="center">iPad mini<br/>32 gb black</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s3_mini.png"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S3 mini</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s3.png"></div>
+						  <h5 class="center">Samsung Galaxy S3</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container"><img src="images/content/samsung-galaxy-s4.png"></div>
+						  <h5 class="center">Samsung Galaxy S4</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container"><img src="images/content/htc-one.png"></div>
+						  <h5 class="center">HTC One X</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_one_max_803n.jpg"></div>
+						  <h5 class="center">HTC One Max</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_one_s.jpg"></div>
+						  <h5 class="center">HTC One S</h5>
+						</div> 						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_Desire_S.jpg"></div>
+						  <h5 class="center">HTC Desire S</h5>
+						</div> 						 						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_desire_c.jpg"></div>
+						  <h5 class="center">HTC Desire C</h5>
+						</div> 						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_SensationXL.jpg"></div>
+						  <h5 class="center">HTC Sensation XL</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_SensationXE.jpg"></div>
+						  <h5 class="center">HTC Sensation XE</h5>
+						</div> 						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/HTC_Desire_200.jpg"></div>
+						  <h5 class="center">HTC Desire 200</h5>
+						</div> 						
+						<div class="model">
+						  <div class="img-container"><img src="images/content/htc_wildfire_s.jpg"></div>
+						  <h5 class="center">HTC WildiFire S</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_ace_3.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace 3</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_note.png"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Note</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_note2.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Note 2</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung-galaxy-express.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Express</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Samsung_note_s3.png"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Note 3</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_y.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Y</h5>
+						</div>
+
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s_i9000.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S (I9000)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s_plus_i9001.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S Plus (I9001)</h5>
+						</div>
+						<div class="model"><!---->
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s2_i9100.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S2 (I9100)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_nexus_i9250.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Nexus (I9250)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_note_n7000.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Note (N7000)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_tab_10_1_p7500.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Tab 10.1 (P7500)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_y_s5360.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Y (S5360)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_mini_s5570.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Mini (S5570)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_ace_s5830.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace (S5830)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_ace_2_i8160.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace 2 (I8160)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s3_mini_i8190.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S3 Mini (I8190)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s3_i9300.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S3 (I9300)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_note_2_n7100.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Note 2 (N7100)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_ace_s5839.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace (S5839)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_ace_plus_s7500.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace Plus (S7500)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s_advance_i9070.jpg"></div>
+						  <h5 class="center">Samsung S <br/>Advance (I9070)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s4_i9505.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S4 (I9505)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_tab_p1000.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Tab (P1000)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_tab_2_p5100.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Tab 2 (P5100)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s3570_chat_357.jpg"></div>
+						  <h5 class="center">Samsung <br/>S3570 / Chat 357</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s5250_wave_525.jpg"></div>
+						  <h5 class="center">Samsung <br/>S5250 / Wave 525</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_mini_2_s6500.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Mini 2 (S6500)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_mega_i9200.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Mega (I9200)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s4_mini_i9195.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S4 Mini (I9195)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_pocket_neo_s5310.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Pocket Neo (S5310)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s2_plus_i9105.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S2 Plus (I9105)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_core.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Core</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_trend.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Trend</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s4_active.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S4 Active</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s4_zoom.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S4 Zoom</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_ace.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_mega.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Mega</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_note_3.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Note 3</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_ace_3_s7275.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Ace 3 (S7275)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_tab_nexus_10_p8110.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Tab Nexus 10 (P8110)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s4_mini_duos_i9192.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S4 mini Duos (I9192)</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_s_wifi_5_0.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>S Wifi 5.0</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_galaxy_tab_3_8_0.jpg"></div>
+						  <h5 class="center">Samsung Galaxy <br/>Tab 3 8.0</h5>
+						</div>
+
+						<!-- Sony -->
+						<div class="model">
+						  <div class="img-container "><img src="images/content/sony_xperia_m_dual.jpg"></div>
+						  <h5 class="center">Sony Xperia <br/>M dual</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/sony_xperia_c.jpg"></div>
+						  <h5 class="center">Sony Xperia <br/>C</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/sony_xperia_z1.jpg"></div>
+						  <h5 class="center">Sony Xperia <br/>Z1</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/sony_xperia_z_ultra.jpg"></div>
+						  <h5 class="center">Sony Xperia <br/>Z Ultra</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/sony_xperia_m.jpg"></div>
+						  <h5 class="center">Sony Xperia <br/>M</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/sony_xperia_tablet_z.jpg"></div>
+						  <h5 class="center">Sony Xperia <br/>Tablet Z</h5>
+						</div>
+						<!-- Nokia -->
+						<div class="model">
+						  <div class="img-container "><img src="images/content/nokia_lumia_520.jpg"></div>
+						  <h5 class="center">Nokia Lumia <br/>520</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/nokia_lumia_920.jpg"></div>
+						  <h5 class="center">Nokia Lumia <br/>920</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/nokia_asha_311.jpg"></div>
+						  <h5 class="center">Nokia Asha <br/>311</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/nokia_lumia_925.jpg"></div>
+						  <h5 class="center">Nokia Lumia <br/>925</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/nokia_asha_206.jpg"></div>
+						  <h5 class="center">Nokia Asha <br/>206</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/nokia_lumia_820.jpg"></div>
+						  <h5 class="center">Nokia Lumia <br/>820</h5>
+						</div>
+
+						<!-- BlackBerry -->
+						<div class="model">
+						  <div class="img-container "><img src="images/content/blackberry_z10.jpg"></div>
+						  <h5 class="center">BlackBerry <br/>Z10</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/blackberry_q10.jpg"></div>
+						  <h5 class="center">BlackBerry <br/>Q10</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/blackberry_9900.jpg"></div>
+						  <h5 class="center">BlackBerry <br/>9900</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/blackberry_z30.jpg"></div>
+						  <h5 class="center">BlackBerry <br/>Z30</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/blackberry_q5.jpg"></div>
+						  <h5 class="center">BlackBerry <br/>Q5</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/blackberry_9790.jpg"></div>
+						  <h5 class="center">BlackBerry <br/>9790</h5>
+						</div>
+						<!--  Acer   -->
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Acer_Liquid_E.png"></div>
+						  <h5 class="center">Acer Liquid E</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Acer_Liquid_E2_Duo.png"></div>
+						  <h5 class="center">Acer Liquid <br/>E2 DUO</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Acer_liquid_gallant_duo.jpg"></div>
+						  <h5 class="center">Acer Liquid <br/>Gallant DUO</h5>
+						</div>						
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Acer_Liquid_s.png"></div>
+						  <h5 class="center">Acer Liquid S</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Acer_Liquid_Z.png"></div>
+						  <h5 class="center">Acer Liquid Z</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/Acer_LiquidS1.png"></div>
+						  <h5 class="center">Acer Liquid E</h5>
+						</div>
+											
+						<div class="problem">
+						  <div class="img-container"><img src="images/problems/audio_tril.gif"></div>
+						  <h5 class="center">Audio en<br/>Trilfunctie</h5>
+						</div>						
+						<div class="problem">
+						  <div class="img-container"><img src="images/problems/behuizing.gif"></div>
+						  <h5 class="center">Behuizing</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/data_overdracht.gif"></div>
+						  <h5 class="center">Data overdracht</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/display.gif"></div>
+						  <h5 class="center">Display</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/in_uit.gif"></div>
+						  <h5 class="center">In- en <br/>uitschakelen</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/netwerk.gif"></div>
+						  <h5 class="center">Netwerk GPS<br/>Bluetooth Wifi</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/opladen.gif"></div>
+						  <h5 class="center">Opladen Batterij<br/>Laders</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/overige.gif"></div>
+						  <h5 class="center">Overige</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/simkaart.gif"></div>
+						  <h5 class="center">Simkaart</h5>
+						</div>
+                        <div class="problem">
+						  <div class="img-container"><img src="images/problems/software.gif"></div>
+						  <h5 class="center">Software</h5>
+						</div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/toetsen.gif"></div>
+                            <h5 class="center">Toetsen</h5>
+                        </div>
+					</div><!--/span-->
+				</div><!--/row-->
+				<div class="row">
+					<div class="col-12">
+						 <p class="centered" style="padding-bottom:10px">             
+							<a class="btn btn-default brand more-brand" href="#" role="button">Meer</a>
+						</p>
+					</div><!--/span-->
+				</div><!--row-->
+			</div><!--brandSelection-->
+		</div><!--left-screen-->
+		
+		<!--right part-->
+		<div class="col-6 col-xs-12 col-md-6 col-lg-6 right-part">
+		   <div class="row">
+		   	<span class="fixed-close-btn"></span>
+				<div class="header">
+				  <a class="navbar-brand text-hide" href="home.htm">Dynafix - after saleservice</a>
+				  <div class="btn-group pull-right visible-lg">
+					 <button type="button" class="btn btn-link">English</button>
+					 <button type="button" class="btn btn-link">Deutsch</button>
+					 <button type="button" class="btn btn-link">Français</button>			 
+				  </div>
+				  <div class="btn-group pull-right hidden-lg" style="padding-right:0;">
+					 <button type="button" class="btn btn-link">English</button>
+					 <button type="button" class="btn btn-link">Deutsch</button>
+					 <button type="button" class="btn btn-link">Français</button>
+				  </div>		  
+				</div>
+			</div>
+			
+		  <div class="row">
+			<div class="col-xs-12 ">
+			<h3 class="search-title invisible ">Stel uw vraag</h3>
+			
+			  <form class="navbar-form hidden" name="common_search" role="search">
+				<div class="row">				
+					<div class="col-sm-8 col-md-7 col-lg-6 form-group">
+							<input type="text" class="form-control typeahead-list" placeholder="Stel hier uw vraag... (of voer uw IMEI of selfservice nummer in)">
+					</div>
+					<div class="col-2 col-md-2 col-lg-2 ">
+						<button onclick="event.preventDefault();window.location='search_result_fp.htm'" type="submit" class="btn btn-default btn-yellow">Zoeken</button>
+					</div>
+				</div>
+			  </form>
+		  
+			  <form class="navbar-form hidden" name="imei_search" role="search">
+				<div class="row">				
+					<div class="col-sm-6 col-lg-4 form-group">
+							<input type="text" class="form-control typeahead-list" placeholder="Voor uw IMEI nummer in">
+					</div>
+					<div class="col-2 col-lg-2 ">
+						<button onclick="event.preventDefault();window.location='search_result_fp.htm'" type="submit" class="btn btn-default btn-yellow">Zoeken on IMEI
+						</button>
+					</div>
+				</div>
+			  </form>		  
+			  
+			  <form class="navbar-form summaryHide" name="stel_search" role="search">
+				<div class="row">				
+					<div class="col-sm-8 col-lg-8 form-group">
+							<input type="text" class="form-control typeahead-list" placeholder="Stel hier uw vraag... " value="">
+					</div>
+					<div class="col-2 col-lg-2">
+						<button  type="button" class="btn btn-default btn-yellow">Zoeken</button>
+					</div>
+				</div>
+			  </form>
+			   
+			   <div class="btn-group summaryHide">
+					<a class="btn btn-link" href="brand_search.htm">Zoek op merk</a>
+					<a class="btn btn-link summaryLink" href="javascript:openHomeFounded();">Vraag direct een reparatie aan</a>
+					<a class="btn btn-link help-button-link" href="javascript:void(0)">Hulp bij dit scherm</a>
+			  </div>		   
+
+			  <div class="btn-group hide">
+					<button type="button" class="btn btn-link">Vraag direct een reparatie aan</button>
+					<button type="button" class="btn btn-link">Hulp bij dit scherm</button>
+			  </div>
+			  
+			  <h3 class="summary" style="color:#999999; padding-bottom:10px; margin-top:-8px;">Samenvatting</h3>
+			  <div class="search-result">
+				  <div class="problems blue-text">
+					<h5><span class="label label-primary summaryHide">Gevonden onderwerpen</span>
+						<span class="label label-primary summary">Geselecteerde onderwerpen</span></h5>
+					<ul id="problems">
+						
+					</ul>
+					<a class="btn btn-default see-more" href="javascript:void(0);" role="button"><span>Verbergen </span>Meer Onderwerpen</a>
+				  </div><!--problems-->
+
+			<div class="tips green-text">
+			  	<h5><span class="label label-success">Gevonden tips</span></h5>
+				<ul id="collapsibleTips">
+				  	
+			  	</ul>
+				<a class="btn btn-default see-more" href="javascript:void(0);" role="button"><span>Verbergen </span>Meer Tips</a>
+			  </div><!--tips-->
+
+			<div class="video red-text">
+			  	<h5><span class="label label-danger">Gevonden hulpvideo’s</span></h5>
+			  	<p class="info hidden">Geen video’s gevonden over dit onderwerp</p>
+				<ul id="videos">				  	
+					
+			  	</ul>
+				<a class="btn btn-default see-more" href="javascript:void(0);" role="button" ><span>Verbergen </span>Meer Hulpvideo’s</a>
+			  </div><!--video-->
+			  </div><!--search result-->
+			  
+			</div><!--/span-->
+		  </div><!--/row-->
+		  
+		  <div class="row bottom-nav-buttons summaryHide hidden" >				
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-6 form-group">
+					<button data-toggle="modal" data-target="#founded-modal" class="btn btn-default">Toon alle gevonden onderwerpen</button>
+					<button class="btn btn-default btn-yellow" onclick="javascript:openHomeFounded()">Vraag een reparatie aan</button>
+				</div>
+			</div>
+			 <!--Summary page buttons-->
+			<div class="bottom-nav-buttons summary">				
+				<div class="form-group">
+					<button class="btn btn-default">Meer problemen toevoegen</button>
+					<button class="btn btn-default btn-yellow">Vraag een reparatie aan</button>
+				</div>
+			</div><!--Summary page buttons end-->
+			
+
+			<div id="foundedProblem" class="founded-note">
+				<p class="small">U heeft 1 probleem bewaard</p>
+				<button onclick="javascript:openHomeFounded();"  style="width:100%;" class="btn btn-default btn-yellow">Samenvatting</button>
+			</div>
+
+		</div><!--right-part-->
+    </div><!--row-->
+</div><!--/.container-->
+      
+    <footer>
+		<div class="container">
+			<div class="bottom-btn-bl">
+				<a class="btn btn-default" href="#" role="button">Oplossing niet gevonden?</a>
+			</div>
+			
+			<p>DYNAFIX SPM | UI design v2.0 - 4/11/2013</p>
+		</div>
+    </footer>
+    <!--Modal dialog-->
+	<div class="modal fade" id="agreed-modal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Hulp nodig?</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>Klik nee indien u door wenst te gaan zonder verdere hulp, klik ja om de zoekassistent te openen</p></p>
+
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Nee</button>
+			<button type="button" class="btn btn-default" onclick="javascript:showHelpBlock();">Ja</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+		
+	<div id="questions_box" class="panel panel-default">
+	  <div class="panel-body">
+		   <img src="images/Woman-on-Headset.jpg">
+		   <p>Hallo, ik ben Dr. Mobile en ik zal u verder proberen te helpen.</p>
+		   <p>Tip als u niet direct kunt vinden wat u zoekt, probeer dan te zoeken via merk, model en onderwerp (bijv, Samsung Galaxy S3 accu laadt niet)</p>
+		   <a class="btn btn-default">Frequently asked questions</a>
+		   <a class="btn btn-default">Ik wil hulp van een Dynafix medewerker</a>
+		   <a class="btn btn-default">Ik heb nu even geen hulp nodig en wil doorgaan met zoeken</a>
+	   </div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/typeahead/typeahead.min.js"></script> 	
+    <script src="js/offcanvas.js"></script>
+    <script src="js/respond.min.js"></script>
+
+	<!-- AddThis Smart Layers BEGIN -->
+	<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+	
+	<!--script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-527b3a19121a31fd"></script>
+	<script type="text/javascript">
+	  addthis.layers({
+		'theme' : 'transparent',
+		'share' : {
+		  'position' : 'left',
+		  'numPreferredServices' : 5
+		}   
+	  });
+	</script>
+
+	<script type="text/javascript">
+		//$('input.form-control.typeahead-list').on('keyup', hideBrands);
+		
+	</script>
+<!-- AddThis Smart Layers END -->
+
+
+</body></html>

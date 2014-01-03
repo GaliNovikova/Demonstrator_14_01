@@ -1,0 +1,1313 @@
+{
+	"problems" :[
+		{
+			"title": "Mijn toestel laadt helemaal niet op",
+			 "text": "",
+		 "keywords": "HTC One X Laadt niet op Opladen Batterij Laders"
+        },
+        {
+		    "title": "Het duurt lang voordat de accu opgeladen is",
+		     "text": "",
+		 "keywords": "HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+		    "title": "Ik zie geen laadindicatie op mijn scherm",
+		     "text": "",
+		 "keywords": "HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+		    "title": "In mijn carkit laadt mijn toestel niet",
+		     "text": "",
+		 "keywords": "HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+		    "title": "Mijn toestel laadt niet op via USB kabel",
+		     "text": "",
+		 "keywords": "HTC One X Laadt niet op  Opladen Batterij Laders"
+},
+		{
+		    "title": "Ik kan mijn toestel niet inschakelen tijdens het laden",
+		     "text": "",
+		 "keywords": "HTC One X Laadt niet op  Opladen Batterij Laders"
+},
+		{
+		    "title": "Mijn toestel gaat vanzelf uit",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Mijn toestel loopt vast",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Tijdens het internetten valt mijn toestel uit",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Mijn scherm wordt zwart",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Mijn toestel valt uit en start opnieuw op",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Ik kan geen Wi-Fi netwerk selecteren",
+		     "text": "",
+		 "keywords": "Apple iPhone 4S Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Mijn internetverbinding is traag/instabiel",
+		     "text": "",
+		 "keywords": "Apple iPhone 4S Data overdracht Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Het ingevoerde Wi-Fi wachtwoord wordt niet herkend",
+		     "text": "",
+		 "keywords": "Apple iPhone 4S Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Tijdens bellen vallen delen van het gesprek weg",
+		     "text": "Zie punt 1",
+		 "keywords": "Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Ik kan niet bellen/gebeld worden",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "In het buitenland heb ik geen bereik",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Mijn internetverbinding is traag/instabiel",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Ik moet mijn toestel meerdere keren per dag opladen",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+        },
+        {
+		    "title": "Mijn accu gaat steeds minder lang mee",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Na het laden is mijn accu vrijwel meteen weer leeg",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Mijn toestel schakelt zichzelf uit",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Tijdens bellen/internetten loopt accu heel snel leeg",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Mijn batterij laadt niet meer goed op",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Tijdens bellen vallen delen van het gesprek weg",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Ik kan niet bellen/gebeld worden",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "In het buitenland heb ik geen bereik",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Mijn internetverbinding is traag/instabiel",
+		     "text": "",
+		 "keywords": "Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+		    "title": "Ik moet mijn toestel meerdere keren per dag opladen",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Mijn accu gaat steeds minder lang mee",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Na het laden is mijn accu vrijwel meteen weer leeg",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Na update naar iOS7 gaat mijn accu minder lang mee",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Mijn toestel schakelt zichzelf uit",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+		{
+		    "title": "Tijdens bellen/internetten loopt accu heel snel leeg",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+		
+		{
+		    "title": "Vindt geen Wifi netwerk",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+		{
+		    "title": "Mijn toestel gaat vanzelf uit",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Mijn toestel loopt vast",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Tijdens het internetten valt mijn toestel uit",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Mijn toestel valt uit en start opnieuw op",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+		{
+		    "title": "Mijn scherm wordt zwart",
+		     "text": "",
+		 "keywords": "Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+        {
+            "title": "Ik kan geen Wi-Fi netwerk selecteren",
+		     "text": "",
+            "keywords": "Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title": "Ik krijg helemaal geen Wi-Fi verbinding",
+		     "text": "",
+            "keywords": "Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title": "Mijn internetverbinding is traag/instabiel",
+		     "text": "",
+            "keywords": "Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title": "Het ingevoerde Wi-Fi wachtwoord wordt niet herkend",
+		     "text": "",
+            "keywords": "Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title": "De beltoon van het toestel werkt niet",
+		    "text": "",
+            "keywords": "Apple iPhone 4S Audio en Trilfunctie"
+},
+        {
+            "title": "Ik hoor de beltoon van het toestel niet",
+		    "text": "",
+            "keywords": "Apple iPhone 4S Audio en Trilfunctie"
+},
+        {
+            "title": "De beltoon is te zacht",
+		    "text": "",
+            "keywords": "Apple iPhone 4S Audio en Trilfunctie"
+},
+        {
+            "title": "De behuizing van mijn toestel is gebroken",
+		    "text": "",
+            "keywords": "Apple iPhone 4S Behuizing"
+},
+		{
+			"title": "De batterijklep van mijn toestel past niet meer",
+			"text": "",
+			"keywords": "Apple iPhone 4S Behuizing"
+},
+		{
+			"title": "Mijn toestel schakelt niet in zonder batterijklep",
+			"text": "",
+			"keywords": "Apple iPhone 4S Behuizing"
+},
+		{
+			"title": "Ik kan de datakabel niet aansluiten op het toestel / in de connector",
+			"text": "",
+			"keywords": "Apple iPhone 4S Behuizing"
+},
+		{
+			"title": "De computer herkent het toestel niet",
+			"text": "",
+			"keywords": "Apple iPhone 4S Software"
+},
+		{
+			"title": "Het toestel herkent de computer niet",
+			"text": "",
+			"keywords": "Apple iPhone 4S Software"
+},
+		{
+			"title": "Ik kan geen geheugen vrijmaken in het interne geheugen",
+			"text": "",
+			"keywords": "Apple iPhone 4S Software"
+},
+		{
+			"title": "Ik kan geen bestanden opslaan in het interne geheugen",
+			"text": "",
+			"keywords": "Apple iPhone 4S Software"
+},
+		{
+			"title": "Ik kan geen bestanden opslaan op de geheugenkaart",
+			"text": "",
+			"keywords": "Apple iPhone 4S Software Simkaart"
+},
+		{
+			"title": "Ik heb lijnen op mijn beeldscherm",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Ik heb een wit beeldscherm",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Ik heb een zwart beeldscherm",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Mijn toestel kan niet worden ingeschakeld",
+			"text": "",
+			"keywords": "Apple iPhone 4S In- en uitschakelen"
+},
+		{
+			"title": "Mijn toestel kan niet uitgeschakeld worden",
+			"text": "",
+			"keywords": "Apple iPhone 4S In- en uitschakelen"
+},
+		{
+			"title": "Mijn toestel schakelt zich vanzelf uit/valt uit",
+			"text": "",
+			"keywords": "Apple iPhone 4S In- en uitschakelen"
+},
+		{
+			"title": "Ik kan niet gebeld worden",
+			"text": "",
+			"keywords": "Apple iPhone 4S Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title": "Ik kan niet bellen",
+			"text": "",
+			"keywords": "Apple iPhone 4S Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title": "Mijn toestel vindt geen netwerk",
+			"text": "",
+			"keywords": "Apple iPhone 4S Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title": "Mijn toestel laadt niet op",
+			"text": "",
+			"keywords": "Apple iPhone 4S Opladen Batterij Laders"
+},
+		{
+			"title": "Mijn toestel valt uit zodra ik het van de lader haal",
+			"text": "",
+			"keywords": "Apple iPhone 4S Opladen Batterij Laders In- en uitschakelen"
+        },
+        {
+			"title": "Ik kan mijn toestel niet inschakelen ondanks dat het aan de lader hangt",
+			"text": "",
+			"keywords": "Apple iPhone 4S In- en uitschakelen Opladen Batterij Laders"
+},
+		{
+			"title": "Ik kan geen netwerk vinden met mijn toestel",
+			"text": "",
+			"keywords": "Apple iPhone 4S Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title": "De SIM-kaart van mijn toestel past niet in de houder",
+			"text": "",
+			"keywords": "Apple iPhone 4S Simkaart"
+},
+		{
+			"title": "De SIM-kaart past niet in mijn toestel",
+			"text": "",
+			"keywords": "Apple iPhone 4S Simkaart"
+},
+		{
+			"title": "Het scherm van mijn toestel blijft zwart",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Mijn scherm hangt vast",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Autorotate werkt niet",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Één toets van mijn toestel werkt niet",
+			"text": "",
+			"keywords": "Apple iPhone 4S Toetsen"
+},
+		{
+			"title": "Meerdere toetsen van mijn toestel werken niet",
+			"text": "",
+			"keywords": "Apple iPhone 4S Toetsen"
+},
+		{
+			"title": "Mijn toestel valt uit wanneer ik op een toets druk",
+			"text": "",
+			"keywords": "Apple iPhone 4S Toetsen In- en uitschakelen"
+},
+		{
+			"title": "Ik hoor een rammelend geluid in mijn toestel",
+			"text": "",
+			"keywords": "Apple iPhone 4S Overige"
+},
+		{
+			"title": "Er zitten een of meerdere vlekken onder mijn scherm",
+			"text": "",
+			"keywords": "Apple iPhone 4S Display"
+},
+		{
+			"title": "Ik heb mijn toestel in het water laten vallen",
+			"text": "",
+			"keywords": "Apple iPhone 4S Overige"
+}
+
+    ],
+	"tips" :[
+		{
+			"title":"Standby tijd beheren",
+		     "text": "Indien u het probleem ondervindt dat u beeld zwart wordt, dan kan dit veroorzaakt worden door een te korte stand-by tijd. Om de lengte van uw standby tijd te bekijken en aan te passen dient u de volgende stappen te doorlopen: <br/>- Ga naar ‘Instellingen’<br/>- Kies vervolgens voor het menu ‘Display’<br/>- Kies daarna voor ‘Time-out scherm’<br/>  Hier kunt u de lengte van de standby tijd / totdat het toestel in de time-out modus gaat instellen.<br/>",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"
+		
+},		
+		{
+			"title":"Controleer accu/lader",
+		     "text":"Indien u het probleem ondervindt dat u toestel uitvalt dan raden wij u aan om de lader en accu te controleren. Middels een kruistest met een andere accu en/of een andere lader kunt u controleren of het probleem door een van beide, of een combinatie, wordt veroorzaakt. Wanneer dit het geval is raden wij u aan om een nieuwe lader of accu aan te schaffen.<br/>",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"
+		
+},		
+		{
+			"title":"Het toestel resetten",
+		     "text": "Vergelijkbaar aan een PC/laptop is het goed om uw toestel regelmatig helemaal uit te schakelen, zodat het geheugen van uw telefoon vrij wordt gemaakt en uw toestel zich stabieler gedraagt.<br/><br/>Op uw toestel blijven altijd een aantal applicaties op de achtergrond doorwerken ondanks dat u ze afgesloten heeft. Deze kunt op volgende wijze alsnog sluiten.<br/>Houdt de home button (onder het display) aatal seconden ingehouden. Nu verschijnen alle apps die nog op de achtergrond werken. Doormiddel van de apps een voor een te verschuiven naar links of rechts worden deze volledig afgesloten.<br/><br/>Het toestel volledig resetten gaat als volgt. Kies voor Apps &gt; Instellingen &gt; Accounts &gt; Back-up maken en terugzetten &gt; Standaardgegevens herstellen &gt; Apparaat resetten &gt; Alles verwijderen. Hierna zal het toestel vanzelf opnieuw opstarten.<br/><br/>Let wel op dat bestaande data/instellingen verloren kunnen gaan, dus maak indien nodig eerst een back-up. Voor hulp hierbij klik hier",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"
+		
+},		
+		{
+			"title":"Kwaadwillige apps verwijderen",
+		     "text": "Indien bij gebruik van een bepaalde app het toestel regelmatig vastloopt/uitschakelt, verwijder dan de app door deze ingedrukt te houden en naar de prullenbak te slepen.<br/><br/>Controleer een aantal dagen of het toestel niet opnieuw uitval vertoont.<br/><br/>Daarnaast kunt u de apps ook volledig verwijderen van het toestel door middel van de volgende stappen.<br/><br/>Kies voor Apps > Instellingen > Meer > Applicatiebeheer > Kies de app die u wilt verwijderen > Verwijderen > Verwijderen bevestigen. Hierna wordt de app verwijderd.",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"
+		
+},		
+		{
+			"title":"Accuverbruik meten",
+		     "text": "Mogelijk is uw accu dermate zwaar belast dat deze snel leeggaat en uw toestel uitvalt.<br/><br/>Controleer via Apps > Instellingen > Meer > Batterij, welke apps het meest batterijverbruik hebben.<br/><br/>Vervolgens kun je deze apps sluiten door onderstaande uit te voeren.<br/><br/>Houdt de home button (onder het display) aatal seconden ingehouden. Nu verschijnen alle apps die nog op de achtergrond werken. Doormiddel van de apps één voor één te verschuiven naar links of rechts worden deze volledig afgesloten.",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"		
+},		
+		{
+			"title":"Nieuwe software installeren",
+		     "text": "Indien u het probleem ondervindt dat u toestel uitvalt dan raden wij u aan om een software update uit te voeren. Voer een software update  uit door de onderstaande stappen te doorlopen.<br/>Let op!: Met deze software update wist u alle media en gegevens en worden alle instellingen terug gezet. Dit kan niet worden hersteld. Daarom is het raadzaam voordat u een dergelijk reset uitvoert een back-up te maken van uw gegevens.<br/><br/>Software update uitvoeren:<br/>- Voordat u een software update uitvoert kunt u via de software update hulp een backup van de gegevens op uw toestel maken<br/>- Nadat u een backup heeft gemaakt gaat kan de software update op twee verschillende manieren worden uitgevoerd.<br/>- Als eerste optie de 'Firmware update over the air' dit wordt FOTA genoemd.<br/>- Zorg ervoor dat uw toestel een wifi verbinding heeft en dat het toestel voldoende  is opgeladen.<br/>- Om deze FOTA uit te voeren gaat u allereerst naar het menu 'instellingen' <br/>- Kies vervolgens voor het menu 'Algemeen'<br/>- Daarna kiest u voor de optie 'Software-update'<br/>- Op het moment dat er een software update voor uw toestel beschikbaar is zal de update worden uitgevoerd.<br/>-  Als er geen software update voor uw toestel beschikbaar zal in het beeldscherm de geinstalleerde software versie worden getoond.<br/>- Om de gemaakte backup van uw gegevens weer terug te plaatsen gaat u weer naar de software update hulp.<br/>",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"		
+},		
+		{
+			"title":"Probleem met mijn scherm",
+		     "text": "Vergelijkbaar aan een PC/laptop is het goed om uw toestel regelmatig helemaal uit te schakelen, zodat het geheugen van uw telefoon vrij wordt gemaakt en uw toestel zich stabieler gedraagt.<br/><br/>Op uw toestel blijven altijd een aantal applicaties op de achtergrond doorwerken ondanks dat u ze afgesloten heeft. Deze kunt op volgende wijze alsnog sluiten. Houdt de home button (onder het display) aatal seconden ingehouden. Nu verschijnen alle apps die nog op de achtergrond werken. Doormiddel van de apps een voor een te verschuiven naar links of rechts worden deze volledig afgesloten.<br/><br/>Het toestel volledig resetten gaat als volgt. Kies voor Apps > Instellingen > Accounts > Back-up maken en terugzetten > Standaardgegevens herstellen > Apparaat resetten > Alles verwijderen. Hierna zal het toestel vanzelf opnieuw opstarten.<br/><br/>Let wel op dat bestaande data/instellingen verloren kunnen gaan, dus maak indien nodig eerst een back-up. Voor hulp hierbij klik hier.<br/>",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"		
+},		
+	
+		{
+			"title":"Een kruistest uitvoeren",
+		     "text": "Indien u het probleem ondervindt dat u toestel uitvalt dan raden wij u aan om de lader en accu te controleren. Middels een kruistest met een andere accu en/of een andere lader kunt u controleren of het probleem door een van beide, of een combinatie, wordt veroorzaakt. Wanneer dit het geval is raden wij u aan om een nieuwe lader of accu aan te schaffen.<br/>",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+			"title":"Stof in het laadpunt",
+		     "text": "Indien u het probleem ondervindt dat uw toestel niet meer laadt dan raden wij u aan om te controleren of er stof zit in de connector, waar u de lader in uw toestel steekt. Mocht dit het geval zijn dan raden wij u aan om het stof voorzichtig te verwijderen, gebruik voor geen scherpe voorraden.<br/>Wanneer u bang bent dat u iets beschadigd dan raden wij u aan om het toestel ter reparatie aan te melden<br/>",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+			"title":"De lader testen",
+		     "text": "Indien u het probleem ondervindt dat uw toestel niet oplaadt dan raden wij u aan om de lader en accu te controleren. Middels een kruistest met een andere accu en/of een andere lader kunt u controleren of het probleem door een van beide, of een combinatie, wordt veroorzaakt. Wanneer dit het geval is raden wij u aan om een nieuwe lader of accu aan te schaffen.<br/>",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+			"title":"Laden via USB/carkit of docking station",
+		     "text": "Indien u het probleem ondervindt dat uw toestel niet oplaadt, dan raden wij u aan om de lader te controleren. Middels een kruistest met een andere accu en/of een andere lader kunt u controleren of het probleem door een van beide, of een combinatie, wordt veroorzaakt. Wanneer dit het geval is raden wij u aan om een nieuwe lader of accu aan te schaffen.<br/>Daarnaast kunt u controleren of u lader defect is, door het toestel proberen op te laden via de carkit of docking station. Wanneer het toestel nu wel oplaadt dan is uw lader defect en dient u een nieuwe aan te schaffen.<br/>",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+			"title":"De accu maakt geen contact",
+		     "text": "Indien u het probleem ondervindt dat uw toestel niet oplaadt dan raden wij u aan om de lader en accu te controleren. Het is belangrijk dat de accu juist in het toestel geplaatst is de contactpunten op de accu dienen boven op de contactpunten van uw toestel geplaatst te worden. Wanneer dit niet correct gebeurd zal de accu geen contact maken en kan u het toestel niet aanzetten of opladen.<br/>Daarnaast kunt u middels een kruistest met een andere accu en/of een andere lader kunt u controleren of het probleem door een van beide, of een combinatie, wordt veroorzaakt. Wanneer dit het geval is raden wij u aan om een nieuwe lader of accu aan te schaffen.<br/>",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+		{
+			"title":"Beschikbaarheid Wi-Fi controleren",
+		     "text": "Indien u het probleem ondervindt dat uw toestel geen wifi netwerk vindt dan raden wij u aan om te controleren of er wifi netwerk beschikbaar zijn. Dit kunt u doen door de volgende stappen te doorlopen:<br/>- Ga naar menu ‘Instellingen’<br/>- Kies vervolgens voor menu ‘Wifi’ <br/>Zet vervolgens het wifi netwerk aan. Nu zal uw toestel naar de beschikbare wifi netwerken gaan zoeken.",
+		"deeplinks":"",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Instellen van Wi-Fi",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_1.png",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"De routerinstellingen beheren",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_2.png",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Verschil tussen Wi-Fi en data abonnement",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_3.png",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Alles over 3G en 4G dekking",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_4.png",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Open en gesloten Wi-Fi netwerken",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_5.png",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Probleem met Wifi netwerk oplossen",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_6.png",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Een software update installeren",
+		     "text": "Indien u het probleem ondervindt dat u toestel geen wifi netwerk vindt dan raden wij u aan om een software update uit te voeren. Voer een software update  uit door de onderstaande stappen te doorlopen.<br/>Let op!: Met deze software update wist u alle media en gegevens en worden alle instellingen terug gezet. Dit kan niet worden hersteld. Daarom is het raadzaam voordat u een dergelijk reset uitvoert een back-up te maken van uw gegevens.<br/><br/>Software update uitvoeren:<br/>- Voordat u een software update uitvoert kunt u via de software update hulp een backup van de gegevens op uw toestel maken<br/>- Nadat u een backup heeft gemaakt gaat kan de software update op twee verschillende manieren worden uitgevoerd.<br/>- Als eerste optie de 'Firmware update over the air' dit wordt FOTA genoemd.<br/>- Zorg ervoor dat uw toestel een wifi verbinding heeft en dat het toestel voldoende  is opgeladen.<br/>- Om deze FOTA uit te voeren gaat u allereerst naar het menu 'instellingen' <br/>- Kies vervolgens voor het menu 'Algemeen'<br/>- Daarna kiest u voor de optie 'Software-update'<br/>- Op het moment dat er een software update voor uw toestel beschikbaar is zal de update worden uitgevoerd.<br/>-  Als er geen software update voor uw toestel beschikbaar zal in het beeldscherm de geinstalleerde software versie worden getoond.<br/>- Om de gemaakte backup van uw gegevens weer terug te plaatsen gaat u weer naar de software update hulp.<br/>- Mocht deze FOTA het probleem niet verhelpen dan raden wij u aan om via de software hulp een software update uit te voeren via een verbinding met uw computer aan iTunes.<br/>",
+		"deeplinks":"",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"De dekking van het netwerk",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_15.jpg",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Bellen in de grensstreek",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_15.jpg",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Alles over roaming, bellen in het buitenland",
+		     "text": "Indien u problemen ondervindt met bellen in het buitenland en u wil u toestel hierop instellen dan raden wij u aan de volgende stappen te doorlopen:<br>- Vanuit het startscherm kiest u voor ‘Apps’<br>- Kies ‘Instellingen’<br>- Kies ‘Meer netwerken’<br>- Kies ‘Mobiele netwerken’<br>- Kies ‘Netwerkoperators’, uw toestel zal nu automatisch naar beschikbare netwerken gaan zoeken<br>- Kies het gewenste netwerk<br>- Uw toestel wordt aangemeld bij het gekozen netwerk<br>- Wanneer het toestel is aangemeld is keert u terug naar het startscherm<br><br>Wanneer u bovengenoemde stappen succesvol bent doorlopen dan zal uw toestel geregistreerd zijn op een buitenlands netwerk en zal u kunnen bellen en bereikbaar zijn in het buitenland. Let op: bellen in het buitenland valt buiten uw bundel en zal extra kosten met zich meebrengen.",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"De werking van uw simkaart controleren",
+		     "text": "Indien u het probleem ondervindt dat uw toestel geen netwerk vindt dan raden wij u aan om de simkaart te controleren. Middels een kruistest met een andere simkaart kunt u controleren of het probleem door de simkaart wordt veroorzaakt. Wanneer dit het geval is raden wij u aan om naar de dichtstbijzijnde winkel van uw netwerk operator te gaan en een nieuwe simkaart aan te vragen.",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Geen Wi-Fi netwerk",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Instellen van internet",
+		     "text": "U kunt op uw toestel op twee manieren internet instellen.<br>a. Automatisch configuratie:<br>http://www.t-mobile.nl/toestelhulp#/samsung/i9505-galaxy-s-iv-lte/internet/usecase/automatische-configuratie/2</a><br>b. Handmatig instellen<br>http://www.t-mobile.nl/toestelhulp#/samsung/i9505-galaxy-s-iv-lte/internet/usecase/handmatig-instellen",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+		{
+			"title":"Tips om de levensduur van uw accu te verlengen",
+		     "text": "- Het is misschien een open deur, maar het scheelt heel veel als je alleen die features inschakelt die je ook daadwerkelijk gebruikt. U kunt dus weluwe GPS, Bluetooth, S Beam, NFC, Air Gesture, en Air View aanzetten, maar de meeste hiervan gebruikt u toch niet constant. Zet ze dus uit! Hiervoor hoeft u niet eindeloos door menu’s te ploegen – de Galaxy S4 heeft een uitgebreide selectie aan sneltoetsen binnen handbereik, helemaal rechtsboven in je notificatiescherm. U kunt daar dan de belangrijkste functies met één druk op de virtuele knop uit- en aanzetten, al naar gelang je ze nodig hebt. Daar vind je ook de Spaarstand, waarover hieronder meer.<br><br>- De simpelste manier om een aantal aanpassingen te doen aan het functioneren van de Galaxy S4 zodat er energie bespaard wordt, is de Spaarstand. Als u deze inschakelt wordt de maximale snelheid van de processor beperkt, het scherm efficiënter aangestuurd, en vibraties uitgezet. Als u in het hierboven getoonde scherm met sneltoetsen de Spaarstand toets wat langer aanraakt, gaat vanzelf naar het bijbehorende menu.<br><br>- Als u op de hoogte wilt blijven van álles, dan kunt u natuurlijk uw Facebook app, uw email en Gmail, de weerwidget, etc. instellen zodat deze zo vaak als mogelijk gecheckt worden op nieuws. Bedenk wel dat dit flink wat energie gebruikt, ook als u uw toestel verder ongebruikt in uw broekzak heeft zitten. Als u de Synchroniseer knop uitzet, dan controleert geen enkele app nog of er nieuws is, dit bespaart veel energie. U kunt een app handmatig synchroniseren wanneer u de betreffende app opent.<br><br>- Hoe helderder uw scherm, hoe meer energie deze verbruikt. Zorg ervoor dat u het scherm alleen op de maximale helderheid hebt staan als u dit ook daadwerkelijk nodig heeft. Dit kunt u inregelen met de helderheidsregelaar in het notificatiescherm (onder het rijtje sneltoetsen). Of zet ‘m op Auto.<br><br>- Door de manier waarop het Android besturingssysteem in elkaar zit, worden een hoop processen efficiënter naarmate u alles een tijdje gebruikt heeft. In het begin zal alles nog wat meer energie vergen. Dus: gebruik uw nieuwe toestel een tijdje, en herstart hem dan een keer. Wanneer u dit een aantal keer herhaalt zal de batterijduur in verloop van tijd verbeteren.<br>- Het doorlopen van de eerste paar laadcycli verbetert de batterijduur. Dus: gebruik uw toestel een paar keer totdat deze helemaal leeg is en laadt deze vervolgens weer helemaal op.",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+			"title":"Intensief gebruik van de telefoon",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+			"title":"Accuverbruik controleren",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+			"title":"Langer gebruik maken van de accu",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+		{
+			"title":"Laden en de accu",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},	
+		{
+			"title":"Ik kan niet bellen/gebeld worden",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"S3 mini netwerkinstellingen",
+		     "text": "https://www.t-mobile.nl/toestelhulp#/samsung/i8190-galaxy-s-iii-mini/bellen/usecase/dekking-in-nederland",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"In het buitenland heb ik geen bereik",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Mijn internetverbinding is traag/instabiel",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Tijdens bellen vallen delen van het gesprek weg",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Ik moet mijn toestel meerdere keren per dag opladen",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_8.png",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},	
+		{
+			"title":"Optimaal gebruik maken van de iPhone",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_9.png",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},	
+		{
+			"title":"Accuverbruik meten",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_9.png",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},	
+		{
+			"title":"Mijn batterij laadt niet meer goed op",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_10.png",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},	
+		{
+			"title":"De laadconnector controleren",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_10.png",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},	
+		{
+			"title":"Beschikbaarheid Wi-Fi controleren",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_1.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Instellen van Wi-Fi",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_1.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"De routerinstellingen beheren",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_11.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Verschil tussen Wi-Fi en data abonnement",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_12.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Alles over 3G en 4G dekking",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_13.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Open en gesloten Wi-Fi netwerken",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_14.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		{
+			"title":"Probleem met Wifi netwerk oplossen",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_15.png",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk GPS Bluetooth Wifi"
+},	
+		
+		{
+			"title":"Standby tijd beheren",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_9.png",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+		{
+			"title":"Controleer accu/lader",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_9.png",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+
+		{
+			"title":"Het toestel resetten",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+
+		{
+			"title":"Kwaadwillige apps verwijderen",
+		     "text": "",
+		"deeplinks":"",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+
+		{
+			"title":"Nieuwe software installeren",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_7.png",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+		{
+			"title":"Accuverbruik meten",
+		     "text": "",
+		"deeplinks":"images/content/screenshot_9.png",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+        {
+            "title":"Beschikbaarheid Wi-Fi controleren",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_1.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"Instellen van Wi-Fi",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_1.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"De routerinstellingen beheren",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_11.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"Verschil tussen Wi-Fi en data abonnement",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_4.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"Alles over 3G en 4G dekking",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_4.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"Open en gesloten Wi-Fi netwerken",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_5.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"Probleem met Wifi netwerk oplossen",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_6.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+            "title":"Een software update uitvoeren",
+		     "text": "",
+            "deeplinks":"images/content/screenshot_7.png",
+            "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+        {
+			"title":"Controleer het geluidsprofiel van uw toestel",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Apple: schakel de mute button uit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Apple: schakel 'Niet storen' uit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Schakel de vliegtuigmodus uit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of er folie over uw display zit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer uw speaker op vuil",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Toestel aanbieden ter reparatie",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Het veronderstelde defect is een product eigenschap",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Gebruik een originele en geschikte datakabel voor data overdracht",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of er vuil in de connector zit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer een kruistest uit met de datakabel",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer een kruistest uit met de datakabel op andere randapparatuur",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer het besturingssysteem op uw computer op compabiliteit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of het toestel staat ingeschakeld",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of het toestel voldoende batterij heeft",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Installeer de juiste drivers om data overdracht mogelijk te maken",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of data beveiligd is opgeslagen",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Standaard apps kunnen niet verwijderd worden",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Plaats de data van de back-up niet terug zonder controle",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Hoe kan ik data opslaan op mijn toestel?",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer het geheugen op uw SD kaart",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer de verdeling van data opslag op uw intern geheugen en SD kaart",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer de protectie folie op krassen",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer een harde reset uit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"De camera te dicht op het te fotograferen object",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Start uw toestel opnieuw op",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of proximity sensor bedekt is",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Laadt uw toestel ten minste 20 minuten op",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer kruistest uit op uw lader",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer kruistest uit op uw accu",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer uw connector op vuil",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Laad toestel op via datakabel aangesloten op uw computer",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Verwijderbare batterij? Controleer of deze juist is geplaatst.",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Start uw toestel op zonder geheugenkaart",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer het gebruikte interne geheugen / aantal geopende apps",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Vliegtuigmodus: Zie Audio & Trilfunctie",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Niet storen modus Apple:  Zie Audio & Trilfunctie",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer uw toestel op netwerkbereik",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer kruistest uit met simkaart",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of het contactpersoon niet geblokkeerd is",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer harde reset uit: Zie display",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of uw het netwerk automatisch selecteert of handmatig",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer uw stopcontact op spanning",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Is de datakabel correct aangesloten?",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer kruistest op uw lader: Zie in-/uitschakelen",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer kruistest uit op uw accu: Zie in-/uitschakelen",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer kruistest uit op uw simkaart",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer de simkaart houder",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Controleer of de simkaart de juiste grote heeft (Normaal, micro, nano)",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer een software update uit",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Deblokkeer de toetsbeveiliging",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer harde reset uit: Zie display",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Voer een software update uit: Zie software",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+        {
+			"title":"Het veronderstelde defect is een product eigenschap: Zie behuizing",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Verwijder batterij en laat deze lang genoeg drogen",
+			"text": "",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Beschikbaarheid wifi controleren",
+			"text": "Indien u het probleem ondervindt dat uw toestel geen wifi netwerk vindt dan raden wij u aan om te controleren of er wifi netwerk beschikbaar zijn. Dit kunt u doen door de volgende stappen te doorlopen:<br/>- Ga naar menu ‘Instellingen’<br/>- Kies vervolgens voor menu ‘Wifi’ <br/>Zet vervolgens het wifi netwerk aan. Nu zal uw toestel naar de beschikbare wifi netwerken gaan zoeken.<br/><br>Dan verschilt het per netwerk of uw een extra inlogcode nodig heeft of niet. Het ligt eraan of het door u geselecteerd wifi netwerk beveiligd is, of niet.",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+		{
+			"title":"Instellen van wifi",
+			"text": "",
+			"deeplinks":"images/content/screenshot_1.png",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"De routerinstellingen beheren",
+			"text": "",
+			"deeplinks":"images/content/screenshot_2.png",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Verschill tussen wifi en data abonnement",
+			"text": "",
+			"deeplinks":"images/content/screenshot_3.png",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Alles over 3G en 4G dekking",
+			"text": "",
+			"deeplinks":"images/content/screenshot_4.png",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Open en gesloten wifi netwerk",
+			"text": "",
+			"deeplinks":"images/content/screenshot_5.png",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Probleem met wifi netwerk oplossen",
+			"text": "",
+			"deeplinks":"images/content/screenshot_6.png",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"Een software update installeren",
+			"text": "Indien u het probleem ondervindt dat u toestel geen wifi netwerk vindt dan raden wij u aan om een software update uit te voeren. Voer een software update  uit door de onderstaande stappen te doorlopen.<br/>Let op!: Met deze software update wist u alle media en gegevens en worden alle instellingen terug gezet. Dit kan niet worden hersteld. Daarom is het raadzaam voordat u een dergelijk reset uitvoert een back-up te maken van uw gegevens.<br/><br/>Software update uitvoeren:<br/>- Voordat u een software update uitvoert kunt u via de software update hulp een backup van de gegevens op uw toestel maken<br/>- Nadat u een backup heeft gemaakt gaat kan de software update op twee verschillende manieren worden uitgevoerd.<br/>- Als eerste optie de 'Firmware update over the air' dit wordt FOTA genoemd.<br/>- Zorg ervoor dat uw toestel een wifi verbinding heeft en dat het toestel voldoende  is opgeladen.<br/>- Om deze FOTA uit te voeren gaat u allereerst naar het menu 'instellingen' <br/>- Kies vervolgens voor het menu 'Algemeen'<br/>- Daarna kiest u voor de optie 'Software-update'<br/>- Op het moment dat er een software update voor uw toestel beschikbaar is zal de update worden uitgevoerd.<br/>-  Als er geen software update voor uw toestel beschikbaar zal in het beeldscherm de geinstalleerde software versie worden getoond.<br/>- Om de gemaakte backup van uw gegevens weer terug te plaatsen gaat u weer naar de software update hulp.<br/>- Mocht deze FOTA het probleem niet verhelpen dan raden wij u aan om via de software hulp een software update uit te voeren via een verbinding met uw computer aan iTunes.",
+			"deeplinks":"",
+			"keywords":"Apple iPhone 4S"
+},
+		{
+			"title":"In het buitenland heb ik geen netwerkbereik",
+			"text": "Indien u problemen ondervindt met bellen in het buitenland en u wil u toestel hierop instellen dan raden wij u aan de volgende stappen te doorlopen:<br>- Vanuit het startscherm kiest u voor ‘Apps’- Kies ‘Instellingen’<br>- Kies ‘Meer netwerken’<br>- Kies ‘Mobiele netwerken’<br>- Kies ‘Netwerkoperators’, uw toestel zal nu automatisch naar beschikbare netwerken gaan zoeken<br>- Kies het gewenste netwerk<br>- Uw toestel wordt aangemeld bij het gekozen netwerk<br>- Wanneer het toestel is aangemeld is keert u terug naar het startscherm<br><br>Wanneer u bovengenoemde stappen succesvol bent doorlopen dan zal uw toestel geregistreerd zijn op een buitenlands netwerk en zal u kunnen bellen en bereikbaar zijn in het buitenland.Let op: bellen in het buitenland valt buiten uw bundel en zal extra kosten met zich meebrengen.",
+			"deeplinks":"",
+			"keywords":"Samsung"
+},
+		{
+			"title":"Mijn internetverbinding is traag/instabiel",
+			"text": "Zie punt 1",
+			"deeplinks":"",
+			"keywords":"Samsung"
+}
+],
+	"videos" : [
+	{
+			"title":"Het laadpunt controleren",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"",
+		 "keywords":"HTC One X Laadt niet op Opladen Batterij Laders"
+},
+	{
+			"title":"De batterij verwijderen",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"		
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"		
+},
+	{
+			"title":"Apps verwijderen",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Valt uit In-/uitschakelen"		
+},
+	{
+			"title":"Een Wi-Fi netwerk instellen",
+		"deeplinks":"http://www.youtube.com/embed/UpFS3Kk7uVM",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi",
+	  "replacement":"images/content/video_screen_1.png"
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"http://www.youtube.com/embed/E4IVgw5x6dw",
+		 "keywords":"Apple iPhone 4S Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi",	
+	  "replacement":"images/content/video_screen_2.png"
+},
+	{
+			"title":"Plaatsen van de simkaart",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+	{
+			"title":"Hoe komt een verbinding tot stand?",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S4 Geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+	{
+			"title":"Apps uitschakelen",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+	{
+			"title":"De helderheid van uw scherm aanpassen",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+	{
+			"title":"De accu verwijderen",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 Accu snel leeg Opladen Batterij Laders"
+},
+	{
+			"title":"Hoe komt een verbinding tot stand?",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"",
+		 "keywords":"Samsung Galaxy S3 mini geen netwerk Netwerk GPS Bluetooth Wifi"
+},
+	{
+			"title":"Laden via een docking station",
+		"deeplinks":"videos/06_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"http://www.youtube.com/embed/E4IVgw5x6dw",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders",
+	  "replacement":"images/content/video_screen_2.png"		 
+},
+	{
+			"title":"Een Wi-Fi netwerk instellen",
+		"deeplinks":"videos/08_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"		
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"http://www.youtube.com/embed/E4IVgw5x6dw",
+		 "keywords":"Apple iPhone 5 vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi",
+	  "replacement":"images/content/video_screen_2.png"
+},
+	
+	{
+			"title":"Netwerkprobleem",
+		"deeplinks":"videos/08_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+
+	{
+			"title":"Toestel loopt vast tijdens gebruik",
+		"deeplinks":"videos/10_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+	{
+			"title":"Toestel start opnieuw op",
+		"deeplinks":"videos/09_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 Valt uit In-/uitschakelen"
+},
+	{
+			"title":"Netwerkprobleem",
+		"deeplinks":"videos/08_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+	{
+			"title":"Foutmelding op display",
+		"deeplinks":"videos/07_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 Vindt geen Wifi netwerk Netwerk / GPS / Bluetooth / Wifi"
+},
+	{
+			"title":"Batterij besparings tips",
+		"deeplinks":"videos/06_Apple_Iphone_5.mp4",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders"
+},
+	{
+			"title":"Een software update uitvoeren",
+		"deeplinks":"videos/http://www.youtube.com/embed/E4IVgw5x6dw",
+		 "keywords":"Apple iPhone 5 accu snel leeg Opladen Batterij Laders",
+	  "replacement":"images/content/video_screen_2.png"
+}
+	]
+}

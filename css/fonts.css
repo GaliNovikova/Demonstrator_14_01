@@ -1,0 +1,64 @@
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-Regular.ttf"); /* TTF file for CSS3 browsers */
+ font-weight:normal;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-Light.ttf"); /* TTF file for CSS3 browsers */
+ font-weight:100;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-ExtraBold.ttf"); /* TTF file for CSS3 browsers */
+ font-weight:900;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-Bold.ttf"); /* TTF file for CSS3 browsers */
+ font-weight:600;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-Semibold.ttf"); /* TTF file for CSS3 browsers */
+ font-weight:500;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-LightItalic.ttf"); /* TTF file for CSS3 browsers */
+ font-style: italic;
+ font-weight:100;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-Italic.ttf"); /* TTF file for CSS3 browsers */
+ font-style: italic;
+ font-weight:normal;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-SemiboldItalic.ttf"); /* TTF file for CSS3 browsers */
+ font-style: italic;
+ font-weight: 500;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-BoldItalic.ttf"); /* TTF file for CSS3 browsers */
+ font-style: italic;
+ font-weight: 600;
+}
+
+@font-face {
+ font-family:OpenSans;
+ src: url("../fonts/OpenSans-ExtraBoldItalic.ttf"); /* TTF file for CSS3 browsers */
+ font-style: italic;
+ font-weight: 900;
+}

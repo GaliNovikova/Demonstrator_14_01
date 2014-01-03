@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/docs-assets/ico/favicon.png">
+
+    <title>DYNAFIX</title>	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<!--link rel='stylesheet' href='http://twitter.github.com/typeahead.js/releases/latest/typeahead.css' /-->
+    <!-- Custom styles-->
+	<link href="css/typeahead.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">   
+    <link href="css/offcanvas.css" rel="stylesheet">    
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="summary">
+    <div class="navbar " role="navigation">
+      <div class="container">
+        <div class="header">
+          <a class="navbar-brand text-hide" href="home.htm">Dynafix - after saleservice</a>
+		  <div class="btn-group pull-right visible-lg">
+			 <button type="button" class="btn btn-link">English</button>
+			 <button type="button" class="btn btn-link">Deutsch</button>
+			 <button type="button" class="btn btn-link">Français</button>			 
+		  </div>
+		  <div class="btn-group pull-right hidden-lg" style="padding-right:0;">
+			 <button type="button" class="btn btn-link">English</button>
+			 <button type="button" class="btn btn-link">Deutsch</button>
+			 <button type="button" class="btn btn-link">Français</button>
+		  </div>		  
+        </div>
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+
+    <div class="container summary details-result">
+      <div class="row">
+        <div class="col-xs-12 ">
+            <h3 class="search-title" style="color:#999999">Samenvatting</h3>
+            <h3 class="search-title">Uw toestel:</h3>
+			
+			<div class="">
+				  <div class="row">
+					<div class="col-12 companies">			
+						<div>
+							<h4>Merk</h4>
+							<div class="img-container"><img class="first" src="images/brand_icons/apple.png"></div>
+							<h5 class="center first">Apple</h5>
+						</div>          
+						<div>
+							<h4>Model</h4>
+							<div class="img-container"><img class="problem ready" src="images/content/iphone_4s.png"></div>
+							<h5 class="center problem ready">iPhone 4s<br/>16 gb black</h5>
+						</div>
+					</div><!--/span-->
+				  </div><!--/row-->
+				<div class="row">
+					<div class="col-12">
+
+					</div><!--/span-->
+				</div><!--row-->
+			</div><!--brandSelection-->
+		    <div>
+			  <h3 class="search-title">Bewaarde onderwerp:</h3>
+			  	<div class="row">
+					<div class="col-2 col-xs-3 col-sm-3 col-lg-2 problem-icon result_problem">
+						<h4>Merk</h4>
+						<div class="img-container">
+							<img  class="ready" src="images/content/problem0.gif">
+							<span class="close-button"></span>
+						</div>
+						<h5 class="center ready">Audio (geluid)</br>tijdens het bellen</h5>	
+					</div><!--/span-->
+					<div class="col-2 col-xs-10 col-sm-8 col-lg-10">
+					  <div class="search-result">
+						  <div class="problems blue-text">
+						  	<h5><span class="label label-primary">Gevonden Onderwerp</span></h5>
+							<ul  id="problems">
+							  	
+						  	</ul>
+
+						  </div><!--problems-->
+
+						  <div class="tips green-text">
+						  	<h5><span class="label label-success">Gevonden tips</span></h5>
+							<ul id="collapsibleTips">
+							  	
+						  	</ul>
+						  </div><!--tips-->
+					  </div><!--search result-->
+					  
+					</div><!--/span-->
+				</div><!--row-->  					  
+			</div>
+
+		  
+        </div><!--/span-->
+      </div><!--/row-->
+	  
+	  	<div class="row bottom-nav-buttons">				
+			<div class="col-lg-6 form-group">
+				<button class="btn btn-default">Meer problemen toevoegen</button>
+				<button class="btn btn-default btn-yellow">Vraag een reparatie aan</button>
+			</div>
+		</div>
+	  
+	  
+	  
+    </div><!--/.container-->
+      
+    <footer>
+		<div class="container">
+			<div class="bottom-btn-bl">
+				<a class="btn btn-default" href="javascript:0" role="button">Oplossing niet gevonden?</a>
+			</div>
+			
+			<p>DYNAFIX SPM | UI design v2.0 - 4/11/2013</p>
+		</div>
+    </footer>
+	
+	<!--Modal dialog-->
+	<div class="modal fade" id="agreed-modal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Hulp nodig?</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>Is dit probleem opgelost? </p>
+			<p>(Bij ‘nee’ bewaren we dit probleem voor uw eventuele reparatie-aanvraag)</p>
+
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" >Nee</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Ja</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+	
+	<div class="hidden">
+	<div class="brandSelection">
+					<div class="btn-group pull-right">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					    Alfabetisch a-z <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+					    <li><a href="#">Alfabetisch z-a</a></li>
+					    <li><a href="#">Relevantie</a></li>
+					    <li><a href="#">Nieuwste eerst</a></li>
+					    <li><a href="#">Oudste eerst</a></li>
+					  </ul>
+					</div>
+
+					<h3><span class="model">Kies nu uw model:</span>
+						<span class="brand">Kies uw merk:</span>
+						<span class="problem">Kies nu uw onderwerp:</span>
+					</h3>
+				  	<!-- Single button -->
+				  <div class="row">
+					<div class="col-12 companies">
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/acer.png"></div>
+						  <h5 class="center">Acer</h5>
+						</div>			
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/apple.png"></div>
+						  <h5 class="center">Apple</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/blackberry.png"></div>
+						  <h5 class="center">BlackBerry</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/sony.png"></div>
+						  <h5 class="center">Sony</h5>
+						</div>           
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/htc.png"></div>
+						  <h5 class="center">HTC</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/motorola.jpg"></div>
+						  <h5 class="center">Motorola</h5>
+						</div>		    
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/huawei.png"></div>
+						  <h5 class="center">Huawei</h5>
+						</div>           
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/alcatel.png"></div>
+						  <h5 class="center">Alcatel</h5>
+						</div>          
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/samsung.png"></div>
+						  <h5 class="center">Samsung</h5>
+						</div>				
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/option.png"></div>
+						  <h5 class="center">Option</h5>
+						</div>           
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/emporia.png"></div>
+						  <h5 class="center">Emporia</h5>
+						</div> 
+						<div class="brand">
+					  <div class="img-container"><img src="images/brand_icons/vodafone.png"></div>
+					  <h5 class="center">Vodafone</h5>
+					</div>          
+						<!--div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/t-mobile.png"></div>
+						  <h5 class="center">T-mobile</h5>
+						</div-->      
+						<div class="brand">
+						  <div class="img-container"><img src="images/brand_icons/ZTE.png"></div>
+						  <h5 class="center">ZTE</h5>
+						</div>
+
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone_4s.png"></div>
+						  <h5 class="center">iPhone 4s</h5>
+						</div>         		    
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone3gs.png"></div>
+						  <h5 class="center">iPhone 3gs<br/>16 gb black</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone_5.png"></div>
+						  <h5 class="center">iPhone 5</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone_5s.png"></div>
+						  <h5 class="center">iPhone 5s<br/>16 gb</h5>
+						</div>             
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone5c_blue.png"></div>
+						  <h5 class="center">iPhone 5c<br/>16 gb</h5>
+						</div>          				
+						<div class="model">
+						  <div class="img-container "><img src="images/content/iphone3.png"></div>
+						  <h5 class="center">iPhone 3gs<br/>16 gb black</h5>
+						</div>           
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad2.png"></div>
+						  <h5 class="center">iPad 2<br/>16 gb</h5>
+						</div>          
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad4.png"></div>
+						  <h5 class="center">iPad 4<br/>64 gb black</h5>
+						</div>      
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad_mini.png"></div>
+						  <h5 class="center">iPad mini<br/>16 gb black</h5>
+						</div>
+						<div class="model">
+						  <div class="img-container "><img src="images/content/ipad_mini.png"></div>
+						  <h5 class="center">iPad mini<br/>32 gb black</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s3_mini.png"></div>
+						  <h5 class="center">Samsung S3 mini</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung_s3.png"></div>
+						  <h5 class="center">Samsung S3</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/samsung-galaxy-s4.png"></div>
+						  <h5 class="center">Samsung S4</h5>
+						</div> 
+						<div class="model">
+						  <div class="img-container "><img src="images/content/htc-one.png"></div>
+						  <h5 class="center">HTC One X</h5>
+						</div>
+
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/audio_tril.gif"></div>
+                            <h5 class="center">Audio en<br/>Trilfunctie</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/behuizing.gif"></div>
+                            <h5 class="center">Behuizing</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/data_overdracht.gif"></div>
+                            <h5 class="center">Data overdracht</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/display.gif"></div>
+                            <h5 class="center">Display</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/in_uit.gif"></div>
+                            <h5 class="center">In- en <br/>uitschakelen</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/netwerk.gif"></div>
+                            <h5 class="center">Netwerk GPS<br/>Bluetooth Wifi</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/opladen.gif"></div>
+                            <h5 class="center">Opladen Batterij<br/>Laders</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/overige.gif"></div>
+                            <h5 class="center">Overige</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/simkaart.gif"></div>
+                            <h5 class="center">Simkaart</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/software.gif"></div>
+                            <h5 class="center">Software</h5>
+                        </div>
+                        <div class="problem">
+                            <div class="img-container"><img src="images/problems/toetsen.gif"></div>
+                            <h5 class="center">Toetsen</h5>
+                        </div>
+
+					</div><!--/span-->
+				</div><!--/row-->
+				<div class="row">
+					<div class="col-12">
+						 <p class="centered" style="padding-bottom:10px">             
+							<a class="btn btn-default" href="#" role="button">Meer modellen</a>
+						</p>
+					</div><!--/span-->
+				</div><!--row-->
+			</div><!--brandSelection-->
+			</div><!-- hidden -->
+			
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/typeahead/typeahead.min.js"></script>
+    <script src="js/respond.min.js"></script>
+	<script src="js/offcanvas.js"></script>
+	
+	<script>		
+		$('.typeahead-list').typeahead({
+		    name:'first',
+			prefetch: 'https://dl.dropboxusercontent.com/u/66634497/list-phones.json'
+		  });
+	</script>
+	<!-- AddThis Smart Layers BEGIN -->
+	<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+	
+	<!--script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-527b3a19121a31fd"></script>
+	<script type="text/javascript">
+	  addthis.layers({
+		'theme' : 'transparent',
+		'share' : {
+		  'position' : 'left',
+		  'numPreferredServices' : 5
+		}   
+	  });
+	</script>		
+<!-- AddThis Smart Layers END -->
+
+
+</body></html>
