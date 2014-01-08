@@ -35,6 +35,8 @@ function showPopupLeaving() {
     // update page
 }
 
+var hashObj = new HashObject();
+
 jQuery(document).on('click', 'video', function(){
 		video = this;
         video_playing_flag = false;/*(this.paused) ? false : true;*/
@@ -48,30 +50,30 @@ jQuery(document).on('click', 'video', function(){
 	
 	
 function openProblem(id){
-	setHashVal('id', 'problem' + id);
+	hashObj.setHashVal('id', 'problem' + id);
 	window.location = 'problem.htm' + window.location.hash;
 }
 
 function openHomeFounded(){
-	setHashVal('id',getHashVal('founded'));
-	setHashVal('founded', '1');
+	hashObj.setHashVal('id',getHashVal('founded'));
+	hashObj.setHashVal('founded', '1');
 	//window.location = 'home.htm' + window.location.hash;
 	openSummary();
 }
 
 function onOpenSummaryFromProblem(){
-	setHashVal('founded', '1');
+	hashObj.setHashVal('founded', '1');
 	//window.location = 'home.htm' + window.location.hash;
 	openSummary();
 }
 
 /*button on problem page 'Nee' from popup*/
 function goToBSwithoutPr(){
-	if(getHashVal('id') && getHashVal('id')!='false'){setHashVal('founded', getHashVal('id'))}
-	else{setHashVal('founded','1')};
+	if(hashObj.getHashVal('id') && hashObj.getHashVal('id')!='false'){hashObj.setHashVal('founded', getHashVal('id'))}
+	else{hashObj.setHashVal('founded','1')};
 	
-	deleteHashVal('id');
-	deleteHashVal('pr');	
+	hashObj.deleteHashVal('id');
+	hashObj.deleteHashVal('pr');	
 	window.location = 'brand_search.htm' + window.location.hash;	
 }
 
@@ -81,7 +83,7 @@ function openSummary(){
 }
 
 function showAllProblems(){
-	deleteHashVal('id');
+	hashObj.deleteHashVal('id');
 	openSummary();  	
 }
 
@@ -90,7 +92,12 @@ function showHelpBlock(){
 	$('#questions_box').fadeToggle();
 }
 
-	function getWindowHashObj(){
+/************ Hash object *************/
+	
+function HashObject(){
+	var self=this;
+
+	getWindowHashObj = function(){
 		var hashObj={};
 		var hashVal = window.location.hash;	
 		//alert(hashVal);
@@ -107,7 +114,7 @@ function showHelpBlock(){
 		return hashObj;
 	}
 
-	function setWindowHash(obj){
+	setWindowHash = function(obj){
 		var hashStr = '';
 		for (var key in obj){
 			hashStr += key + '=' + obj[key] + '&';
@@ -115,24 +122,25 @@ function showHelpBlock(){
 		window.location.hash = hashStr;
 	}
 	
-	function getHashVal(name){
+	self.getHashVal = function(name){
 		var obj = getWindowHashObj();
 		return obj[name] || false;
 	}
 
-	function deleteHashVal(name){
+	self.deleteHashVal = function(name){
 		var obj = getWindowHashObj();
 		if(obj[name]) {delete obj[name]}
 		setWindowHash(obj);
 	}
 
-	function setHashVal(name, val){
+	self.setHashVal = function(name, val){
 		var obj = getWindowHashObj();
 		obj[name] = val;
 		setWindowHash(obj);
 	}
 
-
+}
+	
 	function parseJSONSecond(respText){
 		try {
 			var problemsObj = JSON.parse(respText);
@@ -164,7 +172,7 @@ function showHelpBlock(){
 			$('.ready').hide();			
 			$('.first').hide();
 
-			if(getHashVal('br')) {
+			if(hashObj.getHashVal('br')) {
 				if($('body').hasClass('problemPage')){
 					$('.first').show();
 					$('.brand-search .brandSelection').hide();/*block for search*/
@@ -177,7 +185,7 @@ function showHelpBlock(){
 				$('.brandSelection').show();/*block for search*/
 			}
 			
-			if(getHashVal('md')) {
+			if(hashObj.getHashVal('md')) {
 				if($('body').hasClass('problemPage')){				
 					$('.model').hide();
 					$('.brand').hide();
@@ -192,7 +200,7 @@ function showHelpBlock(){
 				}
 			}
 
-			if(getHashVal('pr')) {
+			if(hashObj.getHashVal('pr')) {
 				$('.model').hide();
 				$('.brand').hide();
 				$('.problem').hide();
@@ -202,7 +210,7 @@ function showHelpBlock(){
 			 $('.result_problem .ready').hide();
 			}
 			
-			if(getHashVal('edit')) {	
+			if(hashObj.getHashVal('edit')) {	
 				document.body.contentEditable='true'; 
 				document.designMode='on';
 			}
@@ -217,9 +225,9 @@ function showHelpBlock(){
 			
 			setTimeout(function checkHash(){
 				
-				if(getHashVal('id') && getHashVal('id')!='false') {
+				if(hashObj.getHashVal('id') && hashObj.getHashVal('id')!='false') {
 
-					var problemTitle = document.getElementById(getHashVal('id'));
+					var problemTitle = document.getElementById(hashObj.getHashVal('id'));
 					$('#problemTitleValue').html(problemTitle.innerHTML);	
 					
 					var filter = $(problemTitle).find('span').html();
@@ -240,15 +248,15 @@ function showHelpBlock(){
 						});	*/		
 					
 					
-					if( $('body').hasClass('brand-search') && !!getHashVal('founded')){
+					if( $('body').hasClass('brand-search') && !!hashObj.getHashVal('founded')){
 
 						$('.summary .problems ul li a').each(function(){
-							if(this.id != getHashVal('id')) $(this).parent().remove();
+							if(this.id != hashObj.getHashVal('id')) $(this).parent().remove();
 						});
 					}
 					
 					$('.brand-search .problems ul li a').each(function(){
-						if(this.id != getHashVal('id')) $(this).parent().remove();
+						if(this.id != hashObj.getHashVal('id')) $(this).parent().remove();
 						$('.see-more').hide();
 					});
 				
@@ -285,18 +293,18 @@ function showHelpBlock(){
 			}, 100);
 			
 			/*-------------------------Summary----------------------------*/					
-			if(getHashVal('founded')=='1'){									
+			if(hashObj.getHashVal('founded')=='1'){									
 				$('.left-part').addClass('smallSize');
 				$('.right-part').removeClass('col-md-6 col-lg-6').addClass('col-md-10 col-lg-10')
 				$('.fixed-close-btn').addClass('reversed');
 				$('.brand-search .summary').show();
 				$('.brand-search .summaryHide').hide();
 				
-				if(getHashVal('br')) {
+				if(hashObj.getHashVal('br')) {
 						$('.first').show();
 				}
 				
-				if(getHashVal('md')) {			
+				if(hashObj.getHashVal('md')) {			
 						$('.model').hide();
 						$('.brand').hide();
 						$('.problem').hide();
@@ -305,7 +313,7 @@ function showHelpBlock(){
 					$('.model').hide();
 				}
 				
-				if(!getHashVal('pr')) {
+				if(!hashObj.getHashVal('pr')) {
 				 $('.result_problem .ready').hide();
 				}
 				
@@ -333,7 +341,7 @@ function showHelpBlock(){
 			$(backButton).on('click', function(){
 				if(!$('body').hasClass('problemPage')) {window.history.back();setTimeout(function(){location.reload()}, 0)}
 				else { 
-					deleteHashVal('id');
+					hashObj.deleteHashVal('id');
 					window.location = 'brand_search.htm' + window.location.hash;
 				}
 			})
@@ -371,12 +379,12 @@ function showHelpBlock(){
 
 			$('#more_problems').on('click', function(e){
 				e.preventDefault();
-				if(getHashVal('id')) { 
-					setHashVal('founded', getHashVal('id'));
+				if(hashObj.getHashVal('id')) { 
+					hashObj.setHashVal('founded', hashObj.getHashVal('id'));
 				} else {
-					setHashVal('founded', '');
+					hashObj.setHashVal('founded', '');
 				}
-				deleteHashVal('pr', '');
+				hashObj.deleteHashVal('pr', '');
 				location.reload();
 			});
 
@@ -436,9 +444,9 @@ jQuery.fn.gridView=function(){
 		}
 		
 		function checkForProblemId19(){
-			if(getHashVal('br')=='brand8' && getHashVal('md')=='model11' && getHashVal('id')=='problem19'){
+			if(hashObj.getHashVal('br')=='brand8' && hashObj.getHashVal('md')=='model11' && hashObj.getHashVal('id')=='problem19'){
 				if(!getHashVal('pr')){
-					setHashVal('pr', 'pro4');
+					hashObj.setHashVal('pr', 'pro4');
 					//location.reload();
 				}
 			}else{
@@ -447,9 +455,9 @@ jQuery.fn.gridView=function(){
 		}		
 		
 		function checkForProblemId6(){
-			if(getHashVal('br')=='brand8' && getHashVal('md')=='model12' && getHashVal('id')=='problem6'){
-				if(!getHashVal('pr')){
-					setHashVal('pr', 'pro5');
+			if(hashObj.getHashVal('br')=='brand8' && hashObj.getHashVal('md')=='model12' && hashObj.getHashVal('id')=='problem6'){
+				if(!hashObj.getHashVal('pr')){
+					hashObj.setHashVal('pr', 'pro5');
 					//location.reload();
 				}
 			}
@@ -609,10 +617,10 @@ function readFileUser(classname, arr) {
 		});
 		
 		$('.close-button.second').on('click', function(){
-			deleteHashVal('pr');
-			deleteHashVal('md');
-			deleteHashVal('id');
-			deleteHashVal('founded');
+			hashObj.deleteHashVal('pr');
+			hashObj.deleteHashVal('md');
+			hashObj.deleteHashVal('id');
+			hashObj.deleteHashVal('founded');
 			$('.choicehelper').val('');
 			if($('body').hasClass('problemPage')){
 				window.location='brand_search.htm' + window.location.hash;
@@ -631,9 +639,9 @@ function readFileUser(classname, arr) {
 		});
 		
 		$('.close-button.third').on('click', function(){
-			deleteHashVal('pr');
-			deleteHashVal('id');
-			deleteHashVal('founded');
+			hashObj.deleteHashVal('pr');
+			hashObj.deleteHashVal('id');
+			hashObj.deleteHashVal('founded');
 			$('.choicehelper').val('');
 			if($('body').hasClass('problemPage')){
 				window.location='brand_search.htm' + window.location.hash;
@@ -686,11 +694,11 @@ function readFileUser(classname, arr) {
 	
 	function hideEmptyBlocks(){
 				$('.brandSelection').hide();
-				if(getHashVal('br')) {
+				if(hashObj.getHashVal('br')) {
 						$('.first').show();
 				}
 				
-				if(getHashVal('md')) {			
+				if(hashObj.getHashVal('md')) {			
 						$('.model').hide();
 						$('.brand').hide();
 						$('.problem').hide();
@@ -699,7 +707,7 @@ function readFileUser(classname, arr) {
 					$('.model').hide();
 				}
 				
-				if(!getHashVal('pr')) {
+				if(!hashObj.getHashVal('pr')) {
 				 $('.result_problem .ready').hide();
 				}
 	
@@ -707,11 +715,11 @@ function readFileUser(classname, arr) {
 	
 	function showEmptyBlocks(){
 				$('.brandSelection').show();
-				if(getHashVal('br')) {
+				if(hashObj.getHashVal('br')) {
 						$('.model').show();
 				}
 				
-				if(getHashVal('md')) {			
+				if(hashObj.getHashVal('md')) {			
 					$('.model').hide();
 					$('.brand').hide();
 					$('.problem').show();
@@ -720,13 +728,13 @@ function readFileUser(classname, arr) {
 					//$('.model').hide();
 				}
 				
-				if(getHashVal('pr')) {
+				if(hashObj.getHashVal('pr')) {
 					$('.problem').hide();
 				 	$('.ready').show();
 					$('.brandSelection').hide();
 				}
 
-				if(!getHashVal('pr')) {
+				if(!hashObj.getHashVal('pr')) {
 				 $('.result_problem .ready').hide();
 				}
 	
@@ -743,11 +751,11 @@ var curProblem = '';
 
 	$('.companies .brand .img-container').each(function(index){
 			this.id = 'brand'+index;
-			if(getHashVal('br') == this.id) {
+			if(hashObj.getHashVal('br') == this.id) {
 				showModelByBrand($(this));
 			}			
 		}).on('click', function(){
-				setHashVal('br',this.id);
+				hashObj.setHashVal('br',this.id);
 				$('.details-result img.first').attr('src', $(this).find('img').attr('src')).css('width','80%');
 				$('.details-result h5.first').html($(this).parent().find('h5').html());
 				showModelByBrand($(this));				
@@ -799,12 +807,12 @@ var curProblem = '';
 		
 	$('.companies .model .img-container').each(function(index){
 			this.id = 'model'+index;
-			if(getHashVal('md') && getHashVal('md') == this.id) {				
+			if(hashObj.getHashVal('md') && hashObj.getHashVal('md') == this.id) {				
 				setCurrentModel($(this));			
 			}	
 
 		}).on('click', function(e){
-				setHashVal('md', this.id);
+				hashObj.setHashVal('md', this.id);
 				setCurrentModel($(this));
 		});
 
@@ -835,13 +843,13 @@ var curProblem = '';
 		
 	$('.companies .problem .img-container').each(function(index){
 			this.id = 'pro'+index;
-			if(getHashVal('pr') && getHashVal('pr') == this.id) {
+			if(hashObj.getHashVal('pr') && hashObj.getHashVal('pr') == this.id) {
 
 				setCurrentProblem($(this));
 
 			}			
 		}).on('click', function(){
-				setHashVal('pr', this.id);
+				hashObj.setHashVal('pr', this.id);
 
 				setCurrentProblem($(this));
 
@@ -945,7 +953,7 @@ var curProblem = '';
 			if (window == this) self=$('input.form-control.typeahead-list')[0];
 			var val = self.value || '';
 
-			if(getHashVal('id')!='false' && getHashVal('id')) val = filterValue;
+			if(hashObj.getHashVal('id')!='false' && hashObj.getHashVal('id')) val = filterValue;
 			var MAX_COUNT=9;
 
 			if(true) {
@@ -953,8 +961,8 @@ var curProblem = '';
 				$('.search-title').css({'visibility':'hidden'});
 				
 				switch(val){
-					case 'Samsung S3 mini geen netwerk': setHashVal('br', 'brand8');setHashVal('md','model10');setHashVal('pr','pro3'); openSummary();break;
-					case 'iPhone 5 accu snel leeg': setHashVal('br', 'brand1');setHashVal('md','model2');setHashVal('pr','pro4');openSummary();break;//br=brand1&md=model2&pr=pro4
+					case 'Samsung S3 mini geen netwerk': hashObj.setHashVal('br', 'brand8');hashObj.setHashVal('md','model10');hashObj.setHashVal('pr','pro3'); openSummary();break;
+					case 'iPhone 5 accu snel leeg': hashObj.setHashVal('br', 'brand1');hashObj.setHashVal('md','model2');hashObj.setHashVal('pr','pro4');openSummary();break;//br=brand1&md=model2&pr=pro4
 					//case 'iPhone 5': setHashVal('br', 'brand1');setHashVal('md','model2');openSummary();break;//br=brand1&md=model2&pr=pro4										
 				}
 								
