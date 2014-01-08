@@ -1471,14 +1471,23 @@ var clearSearchResult = function(){
 		$t.keyup(function(){
 			var str=$t.val().toLowerCase();
 			$('div.companies > div.'+type).show().each(function(){
-				if($(this).find('h5').text().toLowerCase().indexOf(str) < 0) $(this).hide(); 
-				//console.log(this);
+				if($(this).find('h5').text().toLowerCase().indexOf(str) < 0) $(this).hide();
 			});			
 		});
 	});
 }
 
 $('[data-show-help="true"]').on('click', showHelpBlockHandler);
+$('[data-open-summary="true"]').on('click', openSummaryHandler);
+$('.problemPage [data-open-summary="true"]').on('click', openSummaryProblemHandler);
+
+function openSummaryProblemHandler(){
+	onOpenSummaryFromProblem();
+}
+
+function openSummaryHandler(){
+	openSummary();
+}
 
 function showHelpBlockHandler(){
 	showHelpBlock();
