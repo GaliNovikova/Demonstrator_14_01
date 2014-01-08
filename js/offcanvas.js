@@ -1478,3 +1478,8 @@ var clearSearchResult = function(){
 	});
 }
 
+$('[data-show-help="true"]').on('click', showHelpBlockHandler);
+
+function showHelpBlockHandler(){
+	showHelpBlock();
+}
